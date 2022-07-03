@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div><a href="./calculate/">Calculator</a></div>
+    <div><a href="./rockpaperscissor/">Rock Paper and Scissor</a></div>
+    <div><a href="./dogApi/">Dog Api</a></div>
+    <div><a href="./randomHero/">Random Hero Api</a></div>
+  </body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js'
+    import { getAnalytics } from 'https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js'
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: 'AIzaSyBasoGgupGPT9qQVIUGycyqguI6xkqbPRg',
+      authDomain: 'javascriptprojects-7f871.firebaseapp.com',
+      projectId: 'javascriptprojects-7f871',
+      storageBucket: 'javascriptprojects-7f871.appspot.com',
+      messagingSenderId: '516457693852',
+      appId: '1:516457693852:web:25ebc1b8f066cb2ae46359',
+      measurementId: 'G-MZ1ZZPTC1X',
+    }
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig)
+    const analytics = getAnalytics(app)
+  </script>
+</html>
